@@ -77,15 +77,21 @@ body {
 }
 
 .page {
-    height: auto;
-    background-color: black;
+height: auto;
+background-color: black;
+background-image: url("./img/Oval-orta.png");
+background-repeat: no-repeat;
+background-size: 100px;
+background-position-y: 540px;
+}
+
+.page .container {
     background-image: url("./img/Oval-atrof.png")
-                      ,url("./img/Oval-ozi.png")
-                      ,url("./img/Oval-orta.png");
+                      ,url("./img/Oval-ozi.png");
     background-repeat: no-repeat;
-    background-size: 450px , 425px , 100px;
-    background-position-x: 92% , 91% , 0 ;
-    background-position-y: 160px , 114px , 540px;
+    background-size: 450px , 425px;
+    background-position-x: 93% , 91% ;
+    background-position-y: 160px , 114px;
 
 }
 
@@ -126,7 +132,7 @@ body {
 }
 
 .form {
-    margin-left: auto;
+   /* margin-left: auto;*/
     width: 70%;
     height: 420px;
     background-color: white;
